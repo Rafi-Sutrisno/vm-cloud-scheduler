@@ -1,0 +1,33 @@
+# docker-compose.yml
+version: "3"
+services:
+  vm1:
+    image: python:3.10-slim
+    container_name: vm1
+    cpus: "${VM1_CPUS}"
+    mem_limit: 512m
+    command: sleep infinity
+  vm2:
+    image: python:3.10-slim
+    container_name: vm2
+    cpus: "${VM2_CPUS}"
+    mem_limit: 512m
+    command: sleep infinity
+  vm3:
+    image: python:3.10-slim
+    container_name: vm3
+    cpus: "${VM3_CPUS}"
+    mem_limit: 512m
+    command: sleep infinity
+  vm4:
+    image: python:3.10-slim
+    container_name: vm4
+    cpus: "${VM4_CPUS}"
+    mem_limit: 512m
+    command: sleep infinity
+  vm5:
+    image: python:3.10-slim
+    container_name: vm5
+    cpus: "${VM5_CPUS}"
+    mem_limit: 512m
+    command: sleep infinity
