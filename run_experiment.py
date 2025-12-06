@@ -9,7 +9,7 @@ from utils.gantt_plotter import plot_gantt
 
 # Import algorithms
 from algorithms.default_algo import run_default
-from algorithms.first_fit import run_first_fit
+# from algorithms.first_fit import run_first_fit
 # from algorithms.g_pso import run_g_pso
 # from algorithms.g_pso_2 import run_g_pso_2
 from algorithms.greedy import run_greedy
@@ -26,7 +26,6 @@ def log_docker_stats_periodically(stats_logger, stop_event, interval=0.5):
 
 ALGORITHM_REGISTRY = {
     "default": run_default,
-    "first_fit": run_first_fit,
     "greedy": run_greedy,
 }
 
