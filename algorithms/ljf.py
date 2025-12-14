@@ -9,22 +9,22 @@ VM_MIPS = {
     "vm5": 10000,
 }
 
-def run_fcfs(tasks: List[Dict], vm_names: List[str], logger=None) -> List[Dict]:
-    tasks_sorted = tasks  # FCFS doesn't require sorting, so just use the tasks as is
+def run_ljf(tasks: List[Dict], vm_names: List[str], logger=None) -> List[Dict]:
+    # Sort tasks by descending MI
+    tasks_sorted = sorted(enumerate(tasks), key=lambda x: x[1]["mi"], reverse=True)
     
     vm_load = {vm: 0.0 for vm in vm_names}  # estimated time per VM
 
     assignments = []
 
-    # Iterate over the tasks with the index and the task
-    for i, task in enumerate(tasks_sorted):
+    for i, task in tasks_sorted:
         task_mi = task["mi"]
         # Find the VM with the least load
         best_vm = min(vm_names, key=lambda vm: vm_load[vm])
         exec_time = task_mi / VM_MIPS[best_vm]
         vm_load[best_vm] += exec_time
 
-        msg = f"[FCFS] Task {i} ({task_mi} MI) → {best_vm} | load: {vm_load[best_vm]:.3f}s"
+        msg = f"[LJF] Task {i} ({task_mi} MI) → {best_vm} | load: {vm_load[best_vm]:.3f}s"
         if logger:
             logger.log(msg)
         else:
@@ -34,3 +34,4 @@ def run_fcfs(tasks: List[Dict], vm_names: List[str], logger=None) -> List[Dict]:
 
     return run_tasks_parallel(assignments, logger)
 
+run_ljf = run_ljf
