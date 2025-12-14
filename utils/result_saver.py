@@ -19,11 +19,16 @@ def save_config(exp_dir, vm_config, task_params):
         }, f, indent=2)
 
 def save_results_csv(exp_dir, schedule_results, algo_name):
-    # schedule_results = list of {task_id, duration, vm, start, end}
-    with open(f"{exp_dir}/{algo_name}_results.csv", "w", newline="") as f:
-        writer = csv.DictWriter(f, fieldnames=["task_id", "duration", "vm", "start", "end"])
+    filepath = f"{exp_dir}/{algo_name}_results.csv"
+    fieldnames = ["task_id", "duration", "vm", "start", "end"]
+    
+    with open(filepath, "w", newline="", encoding="utf-8") as f:
+        writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()
-        writer.writerows(schedule_results)
+        for row in schedule_results:
+            # Keep only the needed keys
+            filtered_row = {k: row[k] for k in fieldnames if k in row}
+            writer.writerow(filtered_row)
 
 def save_summary_csv(exp_dir, summary):
     with open(f"{exp_dir}/makespan_summary.csv", "w") as f:
