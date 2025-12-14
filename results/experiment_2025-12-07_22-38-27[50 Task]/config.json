@@ -1,0 +1,20 @@
+{
+  "vm_config": {
+    "vm1": 0.5,
+    "vm2": 0.6,
+    "vm3": 0.7,
+    "vm4": 0.8,
+    "vm5": 1.0
+  },
+  "task_distribution": {
+    "num_tasks": 50,
+    "algorithms_run": [
+      "fcfs",
+      "sjf",
+      "ljf",
+      "priority"
+    ],
+    "task_file": "./storage/task/tasks.json"
+  },
+  "timestamp": "2025-12-07T22:38:28.103858"
+}

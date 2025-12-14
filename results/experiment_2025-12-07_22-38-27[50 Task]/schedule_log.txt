@@ -1,0 +1,416 @@
+[22:38:28] 🚀 Running experiments with algorithms: fcfs, sjf, ljf, priority
+[22:38:28] Loading 50 tasks from ./storage/task/tasks.json
+[22:38:28] 
+▶️  Running FCFS...
+[22:38:28] [FCFS] Task 0 (19 MI) → vm1 | load: 0.004s
+[22:38:28] [FCFS] Task 1 (118 MI) → vm2 | load: 0.020s
+[22:38:28] [FCFS] Task 2 (20 MI) → vm3 | load: 0.003s
+[22:38:28] [FCFS] Task 3 (9 MI) → vm4 | load: 0.001s
+[22:38:28] [FCFS] Task 4 (20 MI) → vm5 | load: 0.002s
+[22:38:28] [FCFS] Task 5 (12 MI) → vm4 | load: 0.003s
+[22:38:28] [FCFS] Task 6 (99 MI) → vm5 | load: 0.012s
+[22:38:28] [FCFS] Task 7 (16 MI) → vm4 | load: 0.005s
+[22:38:28] [FCFS] Task 8 (44 MI) → vm3 | load: 0.009s
+[22:38:28] [FCFS] Task 9 (17 MI) → vm1 | load: 0.007s
+[22:38:28] [FCFS] Task 10 (20 MI) → vm4 | load: 0.007s
+[22:38:28] [FCFS] Task 11 (20 MI) → vm4 | load: 0.010s
+[22:38:28] [FCFS] Task 12 (106 MI) → vm1 | load: 0.028s
+[22:38:28] [FCFS] Task 13 (82 MI) → vm3 | load: 0.021s
+[22:38:28] [FCFS] Task 14 (8 MI) → vm4 | load: 0.011s
+[22:38:28] [FCFS] Task 15 (101 MI) → vm4 | load: 0.023s
+[22:38:28] [FCFS] Task 16 (15 MI) → vm5 | load: 0.013s
+[22:38:28] [FCFS] Task 17 (58 MI) → vm5 | load: 0.019s
+[22:38:28] [FCFS] Task 18 (41 MI) → vm5 | load: 0.023s
+[22:38:28] [FCFS] Task 19 (42 MI) → vm2 | load: 0.027s
+[22:38:28] [FCFS] Task 20 (99 MI) → vm3 | load: 0.035s
+[22:38:28] [FCFS] Task 21 (47 MI) → vm4 | load: 0.029s
+[22:38:28] [FCFS] Task 22 (87 MI) → vm5 | load: 0.032s
+[22:38:28] [FCFS] Task 23 (16 MI) → vm2 | load: 0.029s
+[22:38:28] [FCFS] Task 24 (13 MI) → vm1 | load: 0.031s
+[22:38:28] [FCFS] Task 25 (111 MI) → vm4 | load: 0.043s
+[22:38:28] [FCFS] Task 26 (16 MI) → vm2 | load: 0.032s
+[22:38:28] [FCFS] Task 27 (89 MI) → vm1 | load: 0.049s
+[22:38:28] [FCFS] Task 28 (114 MI) → vm2 | load: 0.051s
+[22:38:28] [FCFS] Task 29 (82 MI) → vm5 | load: 0.040s
+[22:38:28] [FCFS] Task 30 (116 MI) → vm3 | load: 0.052s
+[22:38:28] [FCFS] Task 31 (54 MI) → vm5 | load: 0.046s
+[22:38:28] [FCFS] Task 32 (10 MI) → vm4 | load: 0.044s
+[22:38:28] [FCFS] Task 33 (41 MI) → vm4 | load: 0.049s
+[22:38:28] [FCFS] Task 34 (39 MI) → vm5 | load: 0.050s
+[22:38:28] [FCFS] Task 35 (7 MI) → vm1 | load: 0.050s
+[22:38:28] [FCFS] Task 36 (9 MI) → vm4 | load: 0.050s
+[22:38:28] [FCFS] Task 37 (115 MI) → vm5 | load: 0.061s
+[22:38:28] [FCFS] Task 38 (57 MI) → vm1 | load: 0.062s
+[22:38:28] [FCFS] Task 39 (59 MI) → vm4 | load: 0.058s
+[22:38:28] [FCFS] Task 40 (95 MI) → vm2 | load: 0.067s
+[22:38:28] [FCFS] Task 41 (13 MI) → vm3 | load: 0.053s
+[22:38:28] [FCFS] Task 42 (7 MI) → vm3 | load: 0.054s
+[22:38:28] [FCFS] Task 43 (36 MI) → vm3 | load: 0.060s
+[22:38:28] [FCFS] Task 44 (120 MI) → vm4 | load: 0.073s
+[22:38:28] [FCFS] Task 45 (44 MI) → vm3 | load: 0.066s
+[22:38:28] [FCFS] Task 46 (18 MI) → vm5 | load: 0.063s
+[22:38:28] [FCFS] Task 47 (51 MI) → vm1 | load: 0.072s
+[22:38:28] [FCFS] Task 48 (40 MI) → vm5 | load: 0.067s
+[22:38:28] [FCFS] Task 49 (32 MI) → vm3 | load: 0.070s
+[22:38:28] [vm4] Task 3 (9.00 MI) completed in 0.743s
+[22:38:29] [vm5] Task 4 (20.00 MI) completed in 1.305s
+[22:38:29] [vm4] Task 5 (12.00 MI) completed in 0.910s
+[22:38:29] [vm3] Task 2 (20.00 MI) completed in 1.696s
+[22:38:30] [vm1] Task 0 (19.00 MI) completed in 2.128s
+[22:38:30] [vm4] Task 7 (16.00 MI) completed in 1.151s
+[22:38:32] [vm1] Task 9 (17.00 MI) completed in 1.829s
+[22:38:32] [vm4] Task 10 (20.00 MI) completed in 1.769s
+[22:38:33] [vm3] Task 8 (44.00 MI) completed in 3.498s
+[22:38:33] [vm4] Task 11 (20.00 MI) completed in 1.682s
+[22:38:34] [vm4] Task 14 (8.00 MI) completed in 0.675s
+[22:38:34] [vm5] Task 6 (99.00 MI) completed in 5.452s
+[22:38:35] [vm5] Task 16 (15.00 MI) completed in 0.972s
+[22:38:38] [vm2] Task 1 (118.00 MI) completed in 10.461s
+[22:38:39] [vm3] Task 13 (82.00 MI) completed in 6.201s
+[22:38:40] [vm5] Task 17 (58.00 MI) completed in 4.183s
+[22:38:41] [vm4] Task 15 (101.00 MI) completed in 6.877s
+[22:38:41] [vm5] Task 18 (41.00 MI) completed in 3.014s
+[22:38:43] [vm2] Task 19 (42.00 MI) completed in 3.854s
+[22:38:44] [vm1] Task 12 (106.00 MI) completed in 11.278s
+[22:38:44] [vm4] Task 21 (47.00 MI) completed in 3.149s
+[22:38:45] [vm2] Task 23 (16.00 MI) completed in 1.609s
+[22:38:45] [vm1] Task 24 (13.00 MI) completed in 1.623s
+[22:38:46] [vm5] Task 22 (87.00 MI) completed in 4.620s
+[22:38:46] [vm2] Task 26 (16.00 MI) completed in 1.512s
+[22:38:47] [vm3] Task 20 (99.00 MI) completed in 7.388s
+[22:38:50] [vm5] Task 29 (82.00 MI) completed in 4.409s
+[22:38:51] [vm4] Task 25 (111.00 MI) completed in 7.180s
+[22:38:52] [vm4] Task 32 (10.00 MI) completed in 0.798s
+[22:38:53] [vm5] Task 31 (54.00 MI) completed in 2.818s
+[22:38:55] [vm1] Task 27 (89.00 MI) completed in 9.483s
+[22:38:55] [vm4] Task 33 (41.00 MI) completed in 2.708s
+[22:38:55] [vm3] Task 30 (116.00 MI) completed in 8.393s
+[22:38:55] [vm5] Task 34 (39.00 MI) completed in 2.134s
+[22:38:56] [vm4] Task 36 (9.00 MI) completed in 0.839s
+[22:38:56] [vm1] Task 35 (7.00 MI) completed in 1.163s
+[22:39:00] [vm4] Task 39 (59.00 MI) completed in 4.140s
+[22:39:01] [vm3] Task 41 (13.00 MI) completed in 1.114s
+[22:39:01] [vm2] Task 28 (114.00 MI) completed in 15.267s
+[22:39:01] [vm5] Task 37 (115.00 MI) completed in 6.092s
+[22:39:02] [vm3] Task 42 (7.00 MI) completed in 1.070s
+[22:39:03] [vm1] Task 38 (57.00 MI) completed in 7.492s
+[22:39:04] [vm5] Task 46 (18.00 MI) completed in 1.129s
+[22:39:06] [vm3] Task 43 (36.00 MI) completed in 5.453s
+[22:39:07] [vm2] Task 40 (95.00 MI) completed in 10.845s
+[22:39:09] [vm3] Task 45 (44.00 MI) completed in 6.746s
+[22:39:09] [vm5] Task 48 (40.00 MI) completed in 2.253s
+[22:39:09] [vm4] Task 44 (120.00 MI) completed in 7.616s
+[22:39:10] [vm1] Task 47 (51.00 MI) completed in 5.580s
+[22:39:10] [vm3] Task 49 (32.00 MI) completed in 3.460s
+[22:39:10] ⏳ Cooling down for 2 seconds to capture idle state...
+[22:39:12] 
+▶️  Running SJF...
+[22:39:12] [STF] Task 35 (7 MI) → vm1 | load: 0.001s
+[22:39:12] [STF] Task 42 (7 MI) → vm2 | load: 0.001s
+[22:39:12] [STF] Task 14 (8 MI) → vm3 | load: 0.001s
+[22:39:12] [STF] Task 3 (9 MI) → vm4 | load: 0.001s
+[22:39:12] [STF] Task 36 (9 MI) → vm5 | load: 0.001s
+[22:39:12] [STF] Task 32 (10 MI) → vm5 | load: 0.002s
+[22:39:12] [STF] Task 5 (12 MI) → vm4 | load: 0.003s
+[22:39:12] [STF] Task 24 (13 MI) → vm3 | load: 0.003s
+[22:39:12] [STF] Task 41 (13 MI) → vm2 | load: 0.003s
+[22:39:12] [STF] Task 16 (15 MI) → vm1 | load: 0.004s
+[22:39:12] [STF] Task 7 (16 MI) → vm5 | load: 0.004s
+[22:39:12] [STF] Task 23 (16 MI) → vm4 | load: 0.005s
+[22:39:12] [STF] Task 26 (16 MI) → vm3 | load: 0.005s
+[22:39:12] [STF] Task 9 (17 MI) → vm2 | load: 0.006s
+[22:39:12] [STF] Task 46 (18 MI) → vm5 | load: 0.005s
+[22:39:12] [STF] Task 0 (19 MI) → vm1 | load: 0.008s
+[22:39:12] [STF] Task 2 (20 MI) → vm4 | load: 0.007s
+[22:39:12] [STF] Task 4 (20 MI) → vm3 | load: 0.008s
+[22:39:12] [STF] Task 10 (20 MI) → vm5 | load: 0.007s
+[22:39:12] [STF] Task 11 (20 MI) → vm2 | load: 0.009s
+[22:39:12] [STF] Task 49 (32 MI) → vm4 | load: 0.011s
+[22:39:12] [STF] Task 43 (36 MI) → vm5 | load: 0.011s
+[22:39:12] [STF] Task 34 (39 MI) → vm3 | load: 0.014s
+[22:39:12] [STF] Task 48 (40 MI) → vm1 | load: 0.016s
+[22:39:12] [STF] Task 18 (41 MI) → vm2 | load: 0.016s
+[22:39:12] [STF] Task 33 (41 MI) → vm5 | load: 0.015s
+[22:39:12] [STF] Task 19 (42 MI) → vm4 | load: 0.016s
+[22:39:12] [STF] Task 8 (44 MI) → vm3 | load: 0.020s
+[22:39:12] [STF] Task 45 (44 MI) → vm5 | load: 0.019s
+[22:39:12] [STF] Task 21 (47 MI) → vm1 | load: 0.026s
+[22:39:12] [STF] Task 47 (51 MI) → vm2 | load: 0.025s
+[22:39:12] [STF] Task 31 (54 MI) → vm4 | load: 0.023s
+[22:39:12] [STF] Task 38 (57 MI) → vm5 | load: 0.025s
+[22:39:12] [STF] Task 17 (58 MI) → vm3 | load: 0.028s
+[22:39:12] [STF] Task 39 (59 MI) → vm4 | load: 0.030s
+[22:39:12] [STF] Task 13 (82 MI) → vm2 | load: 0.038s
+[22:39:12] [STF] Task 29 (82 MI) → vm5 | load: 0.033s
+[22:39:12] [STF] Task 22 (87 MI) → vm1 | load: 0.043s
+[22:39:12] [STF] Task 27 (89 MI) → vm3 | load: 0.041s
+[22:39:12] [STF] Task 40 (95 MI) → vm4 | load: 0.042s
+[22:39:12] [STF] Task 6 (99 MI) → vm5 | load: 0.043s
+[22:39:12] [STF] Task 20 (99 MI) → vm2 | load: 0.055s
+[22:39:12] [STF] Task 15 (101 MI) → vm3 | load: 0.055s
+[22:39:12] [STF] Task 12 (106 MI) → vm4 | load: 0.056s
+[22:39:12] [STF] Task 25 (111 MI) → vm1 | load: 0.065s
+[22:39:12] [STF] Task 28 (114 MI) → vm5 | load: 0.055s
+[22:39:12] [STF] Task 37 (115 MI) → vm5 | load: 0.066s
+[22:39:12] [STF] Task 30 (116 MI) → vm2 | load: 0.074s
+[22:39:12] [STF] Task 1 (118 MI) → vm3 | load: 0.072s
+[22:39:12] [STF] Task 44 (120 MI) → vm4 | load: 0.071s
+[22:39:13] [vm5] Task 36 (9.00 MI) completed in 0.700s
+[22:39:13] [vm2] Task 42 (7.00 MI) completed in 0.809s
+[22:39:13] [vm4] Task 3 (9.00 MI) completed in 0.833s
+[22:39:13] [vm3] Task 14 (8.00 MI) completed in 0.840s
+[22:39:13] [vm1] Task 35 (7.00 MI) completed in 1.075s
+[22:39:14] [vm5] Task 32 (10.00 MI) completed in 0.739s
+[22:39:14] [vm4] Task 5 (12.00 MI) completed in 1.006s
+[22:39:14] [vm3] Task 24 (13.00 MI) completed in 1.098s
+[22:39:14] [vm2] Task 41 (13.00 MI) completed in 1.242s
+[22:39:15] [vm5] Task 7 (16.00 MI) completed in 0.953s
+[22:39:15] [vm1] Task 16 (15.00 MI) completed in 1.780s
+[22:39:15] [vm4] Task 23 (16.00 MI) completed in 1.174s
+[22:39:16] [vm3] Task 26 (16.00 MI) completed in 1.388s
+[22:39:16] [vm5] Task 46 (18.00 MI) completed in 1.127s
+[22:39:16] [vm2] Task 9 (17.00 MI) completed in 1.623s
+[22:39:17] [vm4] Task 2 (20.00 MI) completed in 1.453s
+[22:39:17] [vm5] Task 10 (20.00 MI) completed in 1.219s
+[22:39:17] [vm3] Task 4 (20.00 MI) completed in 1.751s
+[22:39:17] [vm1] Task 0 (19.00 MI) completed in 2.242s
+[22:39:18] [vm2] Task 11 (20.00 MI) completed in 1.891s
+[22:39:19] [vm4] Task 49 (32.00 MI) completed in 2.360s
+[22:39:19] [vm5] Task 43 (36.00 MI) completed in 2.252s
+[22:39:21] [vm3] Task 34 (39.00 MI) completed in 3.331s
+[22:39:21] [vm5] Task 33 (41.00 MI) completed in 2.272s
+[22:39:22] [vm2] Task 18 (41.00 MI) completed in 3.991s
+[22:39:22] [vm1] Task 48 (40.00 MI) completed in 4.933s
+[22:39:22] [vm4] Task 19 (42.00 MI) completed in 3.151s
+[22:39:24] [vm3] Task 8 (44.00 MI) completed in 3.214s
+[22:39:24] [vm5] Task 45 (44.00 MI) completed in 2.670s
+[22:39:26] [vm4] Task 31 (54.00 MI) completed in 3.525s
+[22:39:27] [vm5] Task 38 (57.00 MI) completed in 3.085s
+[22:39:27] [vm1] Task 21 (47.00 MI) completed in 5.384s
+[22:39:28] [vm2] Task 47 (51.00 MI) completed in 5.232s
+[22:39:29] [vm3] Task 17 (58.00 MI) completed in 4.882s
+[22:39:30] [vm4] Task 39 (59.00 MI) completed in 3.918s
+[22:39:32] [vm5] Task 29 (82.00 MI) completed in 4.366s
+[22:39:34] [vm2] Task 13 (82.00 MI) completed in 7.246s
+[22:39:35] [vm3] Task 27 (89.00 MI) completed in 6.533s
+[22:39:37] [vm5] Task 6 (99.00 MI) completed in 5.111s
+[22:39:37] [vm1] Task 22 (87.00 MI) completed in 9.610s
+[22:39:39] [vm4] Task 40 (95.00 MI) completed in 8.707s
+[22:39:43] [vm2] Task 20 (99.00 MI) completed in 8.618s
+[22:39:43] [vm3] Task 15 (101.00 MI) completed in 7.566s
+[22:39:44] [vm4] Task 12 (106.00 MI) completed in 7.781s
+[22:39:46] [vm5] Task 28 (114.00 MI) completed in 7.718s
+[22:39:48] [vm1] Task 25 (111.00 MI) completed in 11.258s
+[22:39:51] [vm5] Task 37 (115.00 MI) completed in 7.824s
+[22:39:53] [vm3] Task 1 (118.00 MI) completed in 8.490s
+[22:39:53] [vm2] Task 30 (116.00 MI) completed in 10.127s
+[22:39:54] [vm4] Task 44 (120.00 MI) completed in 7.498s
+[22:39:56] ⏳ Cooling down for 2 seconds to capture idle state...
+[22:39:58] 
+▶️  Running LJF...
+[22:39:58] [LJF] Task 44 (120 MI) → vm1 | load: 0.024s
+[22:39:58] [LJF] Task 1 (118 MI) → vm2 | load: 0.020s
+[22:39:58] [LJF] Task 30 (116 MI) → vm3 | load: 0.017s
+[22:39:58] [LJF] Task 37 (115 MI) → vm4 | load: 0.014s
+[22:39:58] [LJF] Task 28 (114 MI) → vm5 | load: 0.011s
+[22:39:58] [LJF] Task 25 (111 MI) → vm5 | load: 0.022s
+[22:39:58] [LJF] Task 12 (106 MI) → vm4 | load: 0.028s
+[22:39:58] [LJF] Task 15 (101 MI) → vm3 | load: 0.031s
+[22:39:58] [LJF] Task 6 (99 MI) → vm2 | load: 0.036s
+[22:39:58] [LJF] Task 20 (99 MI) → vm5 | load: 0.032s
+[22:39:58] [LJF] Task 40 (95 MI) → vm1 | load: 0.043s
+[22:39:58] [LJF] Task 27 (89 MI) → vm4 | load: 0.039s
+[22:39:58] [LJF] Task 22 (87 MI) → vm3 | load: 0.043s
+[22:39:58] [LJF] Task 13 (82 MI) → vm5 | load: 0.041s
+[22:39:58] [LJF] Task 29 (82 MI) → vm2 | load: 0.050s
+[22:39:58] [LJF] Task 39 (59 MI) → vm4 | load: 0.046s
+[22:39:58] [LJF] Task 17 (58 MI) → vm5 | load: 0.046s
+[22:39:58] [LJF] Task 38 (57 MI) → vm1 | load: 0.054s
+[22:39:58] [LJF] Task 31 (54 MI) → vm3 | load: 0.051s
+[22:39:58] [LJF] Task 47 (51 MI) → vm4 | load: 0.052s
+[22:39:58] [LJF] Task 21 (47 MI) → vm5 | load: 0.051s
+[22:39:58] [LJF] Task 8 (44 MI) → vm2 | load: 0.057s
+[22:39:58] [LJF] Task 45 (44 MI) → vm5 | load: 0.056s
+[22:39:58] [LJF] Task 19 (42 MI) → vm3 | load: 0.057s
+[22:39:58] [LJF] Task 18 (41 MI) → vm4 | load: 0.058s
+[22:39:58] [LJF] Task 33 (41 MI) → vm1 | load: 0.063s
+[22:39:58] [LJF] Task 48 (40 MI) → vm5 | load: 0.059s
+[22:39:58] [LJF] Task 34 (39 MI) → vm3 | load: 0.063s
+[22:39:58] [LJF] Task 43 (36 MI) → vm2 | load: 0.063s
+[22:39:58] [LJF] Task 49 (32 MI) → vm4 | load: 0.062s
+[22:39:58] [LJF] Task 2 (20 MI) → vm5 | load: 0.061s
+[22:39:58] [LJF] Task 4 (20 MI) → vm5 | load: 0.064s
+[22:39:58] [LJF] Task 10 (20 MI) → vm4 | load: 0.064s
+[22:39:58] [LJF] Task 11 (20 MI) → vm1 | load: 0.067s
+[22:39:58] [LJF] Task 0 (19 MI) → vm3 | load: 0.065s
+[22:39:58] [LJF] Task 46 (18 MI) → vm2 | load: 0.066s
+[22:39:58] [LJF] Task 9 (17 MI) → vm5 | load: 0.065s
+[22:39:58] [LJF] Task 7 (16 MI) → vm4 | load: 0.066s
+[22:39:58] [LJF] Task 23 (16 MI) → vm5 | load: 0.067s
+[22:39:58] [LJF] Task 26 (16 MI) → vm3 | load: 0.068s
+[22:39:58] [LJF] Task 16 (15 MI) → vm4 | load: 0.068s
+[22:39:58] [LJF] Task 24 (13 MI) → vm2 | load: 0.068s
+[22:39:58] [LJF] Task 41 (13 MI) → vm1 | load: 0.069s
+[22:39:58] [LJF] Task 5 (12 MI) → vm5 | load: 0.068s
+[22:39:58] [LJF] Task 32 (10 MI) → vm3 | load: 0.069s
+[22:39:58] [LJF] Task 3 (9 MI) → vm4 | load: 0.069s
+[22:39:58] [LJF] Task 36 (9 MI) → vm5 | load: 0.069s
+[22:39:58] [LJF] Task 14 (8 MI) → vm2 | load: 0.070s
+[22:39:58] [LJF] Task 35 (7 MI) → vm5 | load: 0.070s
+[22:39:58] [LJF] Task 42 (7 MI) → vm4 | load: 0.070s
+[22:40:04] [vm5] Task 28 (114.00 MI) completed in 6.489s
+[22:40:05] [vm4] Task 37 (115.00 MI) completed in 7.229s
+[22:40:07] [vm3] Task 30 (116.00 MI) completed in 9.249s
+[22:40:08] [vm2] Task 1 (118.00 MI) completed in 10.722s
+[22:40:10] [vm5] Task 25 (111.00 MI) completed in 5.620s
+[22:40:11] [vm1] Task 44 (120.00 MI) completed in 13.768s
+[22:40:13] [vm4] Task 12 (106.00 MI) completed in 7.810s
+[22:40:14] [vm3] Task 15 (101.00 MI) completed in 7.327s
+[22:40:15] [vm5] Task 20 (99.00 MI) completed in 5.151s
+[22:40:17] [vm2] Task 6 (99.00 MI) completed in 8.225s
+[22:40:19] [vm4] Task 27 (89.00 MI) completed in 6.314s
+[22:40:19] [vm5] Task 13 (82.00 MI) completed in 4.204s
+[22:40:21] [vm3] Task 22 (87.00 MI) completed in 6.299s
+[22:40:22] [vm1] Task 40 (95.00 MI) completed in 10.299s
+[22:40:22] [vm5] Task 17 (58.00 MI) completed in 3.204s
+[22:40:24] [vm2] Task 29 (82.00 MI) completed in 6.829s
+[22:40:24] [vm4] Task 39 (59.00 MI) completed in 4.479s
+[22:40:26] [vm3] Task 31 (54.00 MI) completed in 4.126s
+[22:40:27] [vm5] Task 21 (47.00 MI) completed in 3.084s
+[22:40:27] [vm4] Task 47 (51.00 MI) completed in 4.451s
+[22:40:27] [vm1] Task 38 (57.00 MI) completed in 6.804s
+[22:40:27] [vm2] Task 8 (44.00 MI) completed in 3.897s
+[22:40:30] [vm5] Task 45 (44.00 MI) completed in 3.850s
+[22:40:30] [vm4] Task 18 (41.00 MI) completed in 2.916s
+[22:40:30] [vm3] Task 19 (42.00 MI) completed in 3.275s
+[22:40:31] [vm5] Task 48 (40.00 MI) completed in 3.410s
+[22:40:32] [vm1] Task 33 (41.00 MI) completed in 4.402s
+[22:40:32] [vm4] Task 49 (32.00 MI) completed in 2.117s
+[22:40:32] [vm5] Task 2 (20.00 MI) completed in 1.273s
+[22:40:33] [vm3] Task 34 (39.00 MI) completed in 2.945s
+[22:40:33] [vm5] Task 4 (20.00 MI) completed in 1.290s
+[22:40:33] [vm2] Task 43 (36.00 MI) completed in 3.441s
+[22:40:33] [vm4] Task 10 (20.00 MI) completed in 1.419s
+[22:40:34] [vm5] Task 9 (17.00 MI) completed in 0.999s
+[22:40:34] [vm3] Task 0 (19.00 MI) completed in 1.756s
+[22:40:35] [vm4] Task 7 (16.00 MI) completed in 1.146s
+[22:40:35] [vm1] Task 11 (20.00 MI) completed in 2.455s
+[22:40:35] [vm2] Task 46 (18.00 MI) completed in 2.129s
+[22:40:35] [vm5] Task 23 (16.00 MI) completed in 1.052s
+[22:40:36] [vm4] Task 16 (15.00 MI) completed in 1.120s
+[22:40:36] [vm3] Task 26 (16.00 MI) completed in 1.326s
+[22:40:36] [vm5] Task 5 (12.00 MI) completed in 0.814s
+[22:40:36] [vm2] Task 24 (13.00 MI) completed in 1.614s
+[22:40:37] [vm4] Task 3 (9.00 MI) completed in 0.732s
+[22:40:37] [vm3] Task 32 (10.00 MI) completed in 0.939s
+[22:40:37] [vm1] Task 41 (13.00 MI) completed in 1.599s
+[22:40:37] [vm5] Task 36 (9.00 MI) completed in 0.791s
+[22:40:37] [vm2] Task 14 (8.00 MI) completed in 0.873s
+[22:40:37] [vm5] Task 35 (7.00 MI) completed in 0.624s
+[22:40:37] [vm4] Task 42 (7.00 MI) completed in 0.589s
+[22:40:38] ⏳ Cooling down for 2 seconds to capture idle state...
+[22:40:40] 
+▶️  Running PRIORITY...
+[22:40:40] [PRIORITY] Task 32 (10 MI, SLA=18) → vm1 | load: 0.002s
+[22:40:40] [PRIORITY] Task 42 (7 MI, SLA=12) → vm2 | load: 0.001s
+[22:40:40] [PRIORITY] Task 36 (9 MI, SLA=13) → vm3 | load: 0.001s
+[22:40:40] [PRIORITY] Task 24 (13 MI, SLA=18) → vm4 | load: 0.002s
+[22:40:40] [PRIORITY] Task 14 (8 MI, SLA=11) → vm5 | load: 0.001s
+[22:40:40] [PRIORITY] Task 35 (7 MI, SLA=8) → vm5 | load: 0.002s
+[22:40:40] [PRIORITY] Task 3 (9 MI, SLA=9) → vm2 | load: 0.003s
+[22:40:40] [PRIORITY] Task 41 (13 MI, SLA=13) → vm3 | load: 0.003s
+[22:40:40] [PRIORITY] Task 16 (15 MI, SLA=14) → vm5 | load: 0.003s
+[22:40:40] [PRIORITY] Task 10 (20 MI, SLA=18) → vm4 | load: 0.004s
+[22:40:40] [PRIORITY] Task 4 (20 MI, SLA=15) → vm1 | load: 0.006s
+[22:40:40] [PRIORITY] Task 5 (12 MI, SLA=9) → vm2 | load: 0.005s
+[22:40:40] [PRIORITY] Task 7 (16 MI, SLA=11) → vm5 | load: 0.005s
+[22:40:40] [PRIORITY] Task 46 (18 MI, SLA=12) → vm3 | load: 0.006s
+[22:40:40] [PRIORITY] Task 49 (32 MI, SLA=19) → vm4 | load: 0.008s
+[22:40:40] [PRIORITY] Task 43 (36 MI, SLA=20) → vm5 | load: 0.008s
+[22:40:40] [PRIORITY] Task 11 (20 MI, SLA=11) → vm2 | load: 0.008s
+[22:40:40] [PRIORITY] Task 2 (20 MI, SLA=9) → vm3 | load: 0.009s
+[22:40:40] [PRIORITY] Task 48 (40 MI, SLA=18) → vm1 | load: 0.014s
+[22:40:40] [PRIORITY] Task 18 (41 MI, SLA=18) → vm2 | load: 0.015s
+[22:40:40] [PRIORITY] Task 26 (16 MI, SLA=7) → vm4 | load: 0.010s
+[22:40:40] [PRIORITY] Task 9 (17 MI, SLA=7) → vm5 | load: 0.010s
+[22:40:40] [PRIORITY] Task 8 (44 MI, SLA=17) → vm3 | load: 0.015s
+[22:40:40] [PRIORITY] Task 45 (44 MI, SLA=17) → vm5 | load: 0.014s
+[22:40:40] [PRIORITY] Task 31 (54 MI, SLA=20) → vm4 | load: 0.017s
+[22:40:40] [PRIORITY] Task 47 (51 MI, SLA=18) → vm1 | load: 0.024s
+[22:40:40] [PRIORITY] Task 23 (16 MI, SLA=5) → vm5 | load: 0.016s
+[22:40:40] [PRIORITY] Task 34 (39 MI, SLA=12) → vm2 | load: 0.021s
+[22:40:40] [PRIORITY] Task 21 (47 MI, SLA=14) → vm3 | load: 0.022s
+[22:40:40] [PRIORITY] Task 17 (58 MI, SLA=17) → vm5 | load: 0.022s
+[22:40:40] [PRIORITY] Task 0 (19 MI, SLA=5) → vm4 | load: 0.019s
+[22:40:40] [PRIORITY] Task 38 (57 MI, SLA=14) → vm4 | load: 0.026s
+[22:40:40] [PRIORITY] Task 19 (42 MI, SLA=10) → vm2 | load: 0.028s
+[22:40:40] [PRIORITY] Task 33 (41 MI, SLA=9) → vm3 | load: 0.027s
+[22:40:40] [PRIORITY] Task 6 (99 MI, SLA=20) → vm5 | load: 0.032s
+[22:40:40] [PRIORITY] Task 22 (87 MI, SLA=17) → vm1 | load: 0.042s
+[22:40:40] [PRIORITY] Task 13 (82 MI, SLA=15) → vm4 | load: 0.037s
+[22:40:40] [PRIORITY] Task 1 (118 MI, SLA=20) → vm3 | load: 0.044s
+[22:40:40] [PRIORITY] Task 20 (99 MI, SLA=15) → vm2 | load: 0.045s
+[22:40:40] [PRIORITY] Task 37 (115 MI, SLA=15) → vm5 | load: 0.043s
+[22:40:40] [PRIORITY] Task 27 (89 MI, SLA=11) → vm4 | load: 0.048s
+[22:40:40] [PRIORITY] Task 29 (82 MI, SLA=10) → vm1 | load: 0.058s
+[22:40:40] [PRIORITY] Task 25 (111 MI, SLA=13) → vm5 | load: 0.054s
+[22:40:40] [PRIORITY] Task 28 (114 MI, SLA=11) → vm3 | load: 0.061s
+[22:40:40] [PRIORITY] Task 39 (59 MI, SLA=5) → vm2 | load: 0.055s
+[22:40:40] [PRIORITY] Task 44 (120 MI, SLA=10) → vm4 | load: 0.063s
+[22:40:40] [PRIORITY] Task 40 (95 MI, SLA=7) → vm5 | load: 0.064s
+[22:40:40] [PRIORITY] Task 15 (101 MI, SLA=7) → vm2 | load: 0.072s
+[22:40:40] [PRIORITY] Task 12 (106 MI, SLA=6) → vm1 | load: 0.079s
+[22:40:40] [PRIORITY] Task 30 (116 MI, SLA=6) → vm3 | load: 0.077s
+[22:40:41] [vm5] Task 14 (8.00 MI) completed in 0.614s
+[22:40:41] [vm2] Task 42 (7.00 MI) completed in 0.820s
+[22:40:41] [vm3] Task 36 (9.00 MI) completed in 0.869s
+[22:40:41] [vm4] Task 24 (13.00 MI) completed in 1.057s
+[22:40:41] [vm1] Task 32 (10.00 MI) completed in 1.178s
+[22:40:41] [vm5] Task 35 (7.00 MI) completed in 0.558s
+[22:40:42] [vm2] Task 3 (9.00 MI) completed in 0.989s
+[22:40:42] [vm3] Task 41 (13.00 MI) completed in 1.032s
+[22:40:42] [vm5] Task 16 (15.00 MI) completed in 0.963s
+[22:40:43] [vm4] Task 10 (20.00 MI) completed in 1.443s
+[22:40:43] [vm5] Task 7 (16.00 MI) completed in 0.970s
+[22:40:43] [vm2] Task 5 (12.00 MI) completed in 1.282s
+[22:40:44] [vm1] Task 4 (20.00 MI) completed in 2.202s
+[22:40:44] [vm3] Task 46 (18.00 MI) completed in 1.600s
+[22:40:45] [vm5] Task 43 (36.00 MI) completed in 2.086s
+[22:40:45] [vm4] Task 49 (32.00 MI) completed in 2.384s
+[22:40:45] [vm2] Task 11 (20.00 MI) completed in 2.016s
+[22:40:45] [vm3] Task 2 (20.00 MI) completed in 1.791s
+[22:40:46] [vm5] Task 9 (17.00 MI) completed in 1.029s
+[22:40:46] [vm4] Task 26 (16.00 MI) completed in 1.132s
+[22:40:48] [vm1] Task 48 (40.00 MI) completed in 4.236s
+[22:40:49] [vm2] Task 18 (41.00 MI) completed in 3.648s
+[22:40:49] [vm3] Task 8 (44.00 MI) completed in 3.492s
+[22:40:49] [vm5] Task 45 (44.00 MI) completed in 2.547s
+[22:40:50] [vm5] Task 23 (16.00 MI) completed in 1.015s
+[22:40:50] [vm4] Task 31 (54.00 MI) completed in 3.839s
+[22:40:51] [vm4] Task 0 (19.00 MI) completed in 1.354s
+[22:40:52] [vm2] Task 34 (39.00 MI) completed in 3.466s
+[22:40:53] [vm3] Task 21 (47.00 MI) completed in 4.030s
+[22:40:53] [vm5] Task 17 (58.00 MI) completed in 3.487s
+[22:40:53] [vm1] Task 47 (51.00 MI) completed in 5.340s
+[22:40:55] [vm4] Task 38 (57.00 MI) completed in 3.867s
+[22:40:56] [vm3] Task 33 (41.00 MI) completed in 3.102s
+[22:40:56] [vm2] Task 19 (42.00 MI) completed in 3.869s
+[22:40:59] [vm5] Task 6 (99.00 MI) completed in 5.270s
+[22:41:01] [vm4] Task 13 (82.00 MI) completed in 5.204s
+[22:41:02] [vm1] Task 22 (87.00 MI) completed in 8.837s
+[22:41:04] [vm2] Task 20 (99.00 MI) completed in 8.225s
+[22:41:05] [vm5] Task 37 (115.00 MI) completed in 6.230s
+[22:41:06] [vm4] Task 27 (89.00 MI) completed in 5.620s
+[22:41:07] [vm3] Task 1 (118.00 MI) completed in 11.295s
+[22:41:10] [vm1] Task 29 (82.00 MI) completed in 8.305s
+[22:41:11] [vm5] Task 25 (111.00 MI) completed in 6.142s
+[22:41:12] [vm2] Task 39 (59.00 MI) completed in 5.950s
+[22:41:14] [vm3] Task 28 (114.00 MI) completed in 9.494s
+[22:41:15] [vm4] Task 44 (120.00 MI) completed in 7.592s
+[22:41:15] [vm5] Task 40 (95.00 MI) completed in 4.889s
+[22:41:20] [vm2] Task 15 (101.00 MI) completed in 9.732s
+[22:41:23] [vm3] Task 30 (116.00 MI) completed in 8.747s
+[22:41:23] [vm1] Task 12 (106.00 MI) completed in 11.068s
+[22:41:24] ⏳ Cooling down for 2 seconds to capture idle state...
+[22:41:26] 🏆 Best algorithm: LJF (makespan: 39.47s)
+[22:41:26] ✅ Experiment complete! Results saved to: results/experiment_2025-12-07_22-38-27
