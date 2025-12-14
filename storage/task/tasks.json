@@ -1,1 +1,252 @@
-[3.39, 3.86, 4.74, 0.99, 5.42, 4.42, 2.55, 5.6, 1.24, 0.67, 3.04, 0.93, 0.63, 3.77, 1.4, 2.94, 0.8, 5.95, 1.92, 2.76, 5.72, 5.22, 3.9, 1.87, 1.13, 1.56, 3.92, 1.12, 5.81, 5.12, 0.62, 2.79, 0.78, 1.88, 0.58, 3.48, 5.49, 4.46, 5.35, 5.46, 3.98, 3.52, 1.37, 2.28, 1.63, 2.79, 5.52, 0.66, 5.42, 1.63]
+[
+    {
+        "mi": 19,
+        "type": "low",
+        "sla": 5
+    },
+    {
+        "mi": 118,
+        "type": "high",
+        "sla": 20
+    },
+    {
+        "mi": 20,
+        "type": "low",
+        "sla": 9
+    },
+    {
+        "mi": 9,
+        "type": "low",
+        "sla": 9
+    },
+    {
+        "mi": 20,
+        "type": "low",
+        "sla": 15
+    },
+    {
+        "mi": 12,
+        "type": "low",
+        "sla": 9
+    },
+    {
+        "mi": 99,
+        "type": "high",
+        "sla": 20
+    },
+    {
+        "mi": 16,
+        "type": "low",
+        "sla": 11
+    },
+    {
+        "mi": 44,
+        "type": "medium",
+        "sla": 17
+    },
+    {
+        "mi": 17,
+        "type": "low",
+        "sla": 7
+    },
+    {
+        "mi": 20,
+        "type": "low",
+        "sla": 18
+    },
+    {
+        "mi": 20,
+        "type": "low",
+        "sla": 11
+    },
+    {
+        "mi": 106,
+        "type": "high",
+        "sla": 6
+    },
+    {
+        "mi": 82,
+        "type": "high",
+        "sla": 15
+    },
+    {
+        "mi": 8,
+        "type": "low",
+        "sla": 11
+    },
+    {
+        "mi": 101,
+        "type": "high",
+        "sla": 7
+    },
+    {
+        "mi": 15,
+        "type": "low",
+        "sla": 14
+    },
+    {
+        "mi": 58,
+        "type": "medium",
+        "sla": 17
+    },
+    {
+        "mi": 41,
+        "type": "medium",
+        "sla": 18
+    },
+    {
+        "mi": 42,
+        "type": "medium",
+        "sla": 10
+    },
+    {
+        "mi": 99,
+        "type": "high",
+        "sla": 15
+    },
+    {
+        "mi": 47,
+        "type": "medium",
+        "sla": 14
+    },
+    {
+        "mi": 87,
+        "type": "high",
+        "sla": 17
+    },
+    {
+        "mi": 16,
+        "type": "low",
+        "sla": 5
+    },
+    {
+        "mi": 13,
+        "type": "low",
+        "sla": 18
+    },
+    {
+        "mi": 111,
+        "type": "high",
+        "sla": 13
+    },
+    {
+        "mi": 16,
+        "type": "low",
+        "sla": 7
+    },
+    {
+        "mi": 89,
+        "type": "high",
+        "sla": 11
+    },
+    {
+        "mi": 114,
+        "type": "high",
+        "sla": 11
+    },
+    {
+        "mi": 82,
+        "type": "high",
+        "sla": 10
+    },
+    {
+        "mi": 116,
+        "type": "high",
+        "sla": 6
+    },
+    {
+        "mi": 54,
+        "type": "medium",
+        "sla": 20
+    },
+    {
+        "mi": 10,
+        "type": "low",
+        "sla": 18
+    },
+    {
+        "mi": 41,
+        "type": "medium",
+        "sla": 9
+    },
+    {
+        "mi": 39,
+        "type": "medium",
+        "sla": 12
+    },
+    {
+        "mi": 7,
+        "type": "low",
+        "sla": 8
+    },
+    {
+        "mi": 9,
+        "type": "low",
+        "sla": 13
+    },
+    {
+        "mi": 115,
+        "type": "high",
+        "sla": 15
+    },
+    {
+        "mi": 57,
+        "type": "medium",
+        "sla": 14
+    },
+    {
+        "mi": 59,
+        "type": "medium",
+        "sla": 5
+    },
+    {
+        "mi": 95,
+        "type": "high",
+        "sla": 7
+    },
+    {
+        "mi": 13,
+        "type": "low",
+        "sla": 13
+    },
+    {
+        "mi": 7,
+        "type": "low",
+        "sla": 12
+    },
+    {
+        "mi": 36,
+        "type": "medium",
+        "sla": 20
+    },
+    {
+        "mi": 120,
+        "type": "high",
+        "sla": 10
+    },
+    {
+        "mi": 44,
+        "type": "medium",
+        "sla": 17
+    },
+    {
+        "mi": 18,
+        "type": "low",
+        "sla": 12
+    },
+    {
+        "mi": 51,
+        "type": "medium",
+        "sla": 18
+    },
+    {
+        "mi": 40,
+        "type": "medium",
+        "sla": 18
+    },
+    {
+        "mi": 32,
+        "type": "medium",
+        "sla": 19
+    }
+]
