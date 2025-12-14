@@ -1,0 +1,5 @@
+Algorithm,Makespan (s)
+fcfs,61.82
+sjf,58.19
+ljf,56.58
+priority,58.14
